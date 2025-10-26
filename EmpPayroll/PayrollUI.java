@@ -67,7 +67,7 @@ public class PayrollUI extends JFrame {
 
         add(removePanel, BorderLayout.SOUTH);
 
-        // ======== ACTIONS ========
+        /* ======== ACTIONS ========*/
         addButton.addActionListener(e -> addEmployee());
         showButton.addActionListener(e -> showAllEmployees());
         removeButton.addActionListener(e -> removeEmployee());
