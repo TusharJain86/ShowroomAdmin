@@ -19,7 +19,7 @@ public class PayrollUI extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout(10, 10));
 
-        // ======== TOP PANEL (Form) ========
+        // ======== TOP PANEL (Form) of the UI ========
         JPanel inputPanel = new JPanel(new GridLayout(7, 2, 5, 5));
         inputPanel.setBorder(BorderFactory.createTitledBorder("Add Employee"));
 
@@ -67,7 +67,7 @@ public class PayrollUI extends JFrame {
 
         add(removePanel, BorderLayout.SOUTH);
 
-        // ======== ACTIONS ========
+        /* ======== ACTIONS ========*/
         addButton.addActionListener(e -> addEmployee());
         showButton.addActionListener(e -> showAllEmployees());
         removeButton.addActionListener(e -> removeEmployee());
